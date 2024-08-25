@@ -1,0 +1,49 @@
+-- Inserindo produtos na tabela products
+INSERT INTO "public"."products" ("id", "name", "description", "image", "price", "createdAt")
+VALUES
+    ('1e77a1e3-35d2-4a62-b0b5-9bfb6e8ef481', 'Neon Gaming Desk Setup', 'A stunning neon-illuminated gaming desk setup.', 'https://cymmplc43bsua6ef.public.blob.vercel-storage.com/1724597728196_gradient-illuminated-neon-gaming-desk-setup-with-keyboard_23-2149529405-AENrMbWW54hHxE84HlDy8L0TCQAh6V.jpg', 199.99, '2024-08-01 14:55:29.529'),
+    ('2b6b9b91-ff9a-4e5c-a7a4-80d1f7b89e43', 'Sleek Workstation', '3D workstation with computer peripheral devices.', 'https://cymmplc43bsua6ef.public.blob.vercel-storage.com/1724572203451__b16892d6-a1ba-4357-95ff-d709e0906cd7-4DAquqtGSjoaOLr094CwiYZGQYXFOQ.jpeg', 1499.49, '2024-08-02'),
+    ('3d4c7d9e-4fb6-476a-8f43-5dc17a4d8e1a', 'Illuminated Gaming Desk', 'View of a neon-illuminated gaming desk setup.', 'https://cymmplc43bsua6ef.public.blob.vercel-storage.com/1724597711807_3d-workstation-with-computer-peripheral-devices_23-2150714175-cMfZJFeKcQJvufpMgHbhMWnseh0zpr.jpg', 799.75, '2024-08-03 14:55:29.529'),
+    ('4e8b8a41-c5f8-4b6b-a9f9-5a5a5a5a5a5a', '3D Workstation Pro', 'Advanced 3D workstation with premium devices.', 'https://cymmplc43bsua6ef.public.blob.vercel-storage.com/1724597735963_view-neon-illuminated-gaming-desk-setup-with-keyboard_23-2149529379-3P9vvHbOsOSsWNBOcbGVuDzFooONp1.jpg', 3499.99, '2024-08-04 14:55:29.529'),
+    ('5f9f9f6b-6c8c-4d9d-8e8e-6f6f6f6f6f6f', 'Minimalist Desk Setup', 'Minimalist desk setup with ergonomic design.', 'https://cymmplc43bsua6ef.public.blob.vercel-storage.com/1724597720763_3d-workstation-with-computer-peripheral-devices_23-2150714209-B5teUxHsDp9QQR6wb3VHNjBF0DsU9W.jpg', 49.99, '2024-08-05 14:55:29.529'),
+    ('6a7a7a8a-7d9d-4e9e-9f9f-7g7g7g7g7g7g', 'Ergonomic Gaming Chair', 'Comfortable gaming chair with lumbar support.', 'https://cymmplc43bsua6ef.public.blob.vercel-storage.com/1724570039693__2e073888-8859-4572-bf04-2387c47c7c35-Xfopmz4wbjgc6jXTBOOxN7nb2dsORY.jpeg', 329.95, '2024-08-06'),
+    ('7b8b8b9b-8e9e-5f9f-a0a0-8h8h8h8h8h8h', 'Advanced Gaming Setup', 'Complete gaming setup with RGB lighting.', 'https://cymmplc43bsua6ef.public.blob.vercel-storage.com/1724597728196_gradient-illuminated-neon-gaming-desk-setup-with-keyboard_23-2149529405-AENrMbWW54hHxE84HlDy8L0TCQAh6V.jpg', 259.45, '2024-08-07 14:55:29.529'),
+    ('8c9c9ca9-9f0f-6g0g-b1b1-9i9i9i9i9i9i', 'Premium Workstation Setup', 'High-end workstation with top-of-the-line peripherals.', 'https://cymmplc43bsua6ef.public.blob.vercel-storage.com/1724572203451__b16892d6-a1ba-4357-95ff-d709e0906cd7-4DAquqtGSjoaOLr094CwiYZGQYXFOQ.jpeg', 2899.89, '2024-08-08'),
+    ('9dadadb9-0a1a-7h1h-c2c2-ajajajajajaj', 'RGB Mechanical Keyboard', 'Mechanical keyboard with customizable RGB lighting.', 'https://cymmplc43bsua6ef.public.blob.vercel-storage.com/1724597711807_3d-workstation-with-computer-peripheral-devices_23-2150714175-cMfZJFeKcQJvufpMgHbhMWnseh0zpr.jpg', 99.99, '2024-08-09 14:55:29.529'),
+    ('0e1e1eb1-1b2b-8i2i-d3d3-bkbkbkbkbkbk', 'Curved Gaming Monitor', 'Ultra-wide curved monitor for immersive gaming.', 'https://cymmplc43bsua6ef.public.blob.vercel-storage.com/1724597735963_view-neon-illuminated-gaming-desk-setup-with-keyboard_23-2149529379-3P9vvHbOsOSsWNBOcbGVuDzFooONp1.jpg', 599.95, '2024-08-10 14:55:29.529'),
+    ('1f2f2fc1-2c3c-9j3j-e4e4-clclclclclcl', 'Wireless Gaming Mouse', 'High-precision wireless mouse with programmable buttons.', 'https://cymmplc43bsua6ef.public.blob.vercel-storage.com/1724597720763_3d-workstation-with-computer-peripheral-devices_23-2150714209-B5teUxHsDp9QQR6wb3VHNjBF0DsU9W.jpg', 49.95, '2024-08-11 14:55:29.529'),
+    ('2g3g3gd1-3d4d-ak4k-f5f5-dmdmdmdmdmdm', 'Gaming Headset', 'Surround sound gaming headset with noise-cancelling microphone.', 'https://cymmplc43bsua6ef.public.blob.vercel-storage.com/1724570039693__2e073888-8859-4572-bf04-2387c47c7c35-Xfopmz4wbjgc6jXTBOOxN7nb2dsORY.jpeg', 79.99, '2024-08-12'),
+    ('3h4h4he1-4e5e-bl5l-g6g6-eneeneeneene', 'Gaming Desk Mat', 'Large desk mat with RGB lighting for gaming setups.', 'https://cymmplc43bsua6ef.public.blob.vercel-storage.com/1724597728196_gradient-illuminated-neon-gaming-desk-setup-with-keyboard_23-2149529405-AENrMbWW54hHxE84HlDy8L0TCQAh6V.jpg', 29.99, '2024-08-13 14:55:29.529');
+
+
+-- Inserindo pedidos na tabela orders
+INSERT INTO "public"."orders" ("id", "productId", "customerName", "customerPhone", "customerCPF", "customerEmail", "status", "paymentMethod", "createdAt")
+VALUES
+    ('0bfc22b2-f27b-4a25-bb07-0f33c61f72a3', '1e77a1e3-35d2-4a62-b0b5-9bfb6e8ef481', 'John Doe', '555-1234', '123.456.789-10', 'john@example.com', 'APPROVED', 'Credit Card', '2024-08-15'),
+    ('1d7a6193-9b36-4a71-85df-097b5d2a8e1d', '2b6b9b91-ff9a-4e5c-a7a4-80d1f7b89e43', 'Jane Smith', '555-5678', '987.654.321-00', 'jane@example.com', 'PENDING', 'PayPal', '2024-08-16'),
+    ('3f7d4d8f-b926-4b99-9f0b-5db45a8f2c18', '3d4c7d9e-4fb6-476a-8f43-5dc17a4d8e1a', 'Alice Johnson', '555-8765', '321.654.987-99', 'alice@example.com', 'APPROVED', 'Bank Transfer', '2024-08-17'),
+    ('4c8e8f6f-c0a1-5a2b-4b4c-bc8e8f6fc0a1', '4e8b8a41-c5f8-4b6b-a9f9-5a5a5a5a5a5a', 'Bob Brown', '555-1111', '111.222.333-44', 'bob@example.com', 'PENDING', 'Credit Card', '2024-08-18'),
+    ('5d9f9g7g-d1b2-6b3c-5c5d-cd9f9g7gd1b2', '5f9f9f6b-6c8c-4d9d-8e8e-6f6f6f6f6f6f', 'Charlie Green', '555-2222', '222.333.444-55', 'charlie@example.com', 'APPROVED', 'Credit Card', '2024-08-19'),
+    ('6e0g0h8h-e2c3-7c4d-6d6e-de0g0h8he2c3', '6a7a7a8a-7d9d-4e9e-9f9f-7g7g7g7g7g7g', 'David White', '555-3333', '333.444.555-66', 'david@example.com', 'PENDING', 'PayPal', '2024-08-20'),
+    ('7f1h1i9i-f3d4-8d5e-7e7f-ef1h1i9if3d4', '7b8b8b9b-8e9e-5f9f-a0a0-8h8h8h8h8h8h', 'Eva Black', '555-4444', '444.555.666-77', 'eva@example.com', 'APPROVED', 'Bank Transfer', '2024-08-21'),
+    ('8g2i2j0j-g4e5-9e6f-8f8g-fg2i2j0jg4e5', '8c9c9ca9-9f0f-6g0g-b1b1-9i9i9i9i9i9i', 'Frank Yellow', '555-5555', '555.666.777-88', 'frank@example.com', 'PENDING', 'Credit Card', '2024-08-22'),
+    ('9h3j3k1k-h5f6-ak7g-9g9h-gh3j3k1kh5f6', '9dadadb9-0a1a-7h1h-c2c2-ajajajajajaj', 'Grace Pink', '555-6666', '666.777.888-99', 'grace@example.com', 'APPROVED', 'Credit Card', '2024-08-23'),
+    ('0i4k4l2l-i6g7-bl8h-0h0i-hi4k4l2li6g7', '0e1e1eb1-1b2b-8i2i-d3d3-bkbkbkbkbkbk', 'Hank Purple', '555-7777', '777.888.999-00', 'hank@example.com', 'PENDING', 'PayPal', '2024-08-24'),
+    ('1j5l5m3m-j7h8-cm9i-1i1j-ij5l5m3mj7h8', '1f2f2fc1-2c3c-9j3j-e4e4-clclclclclcl', 'Ivy Orange', '555-8888', '888.999.000-11', 'ivy@example.com', 'APPROVED', 'Bank Transfer', '2024-08-25'),
+    ('2k6m6n4n-k8i9-dn0j-2j2k-jk6m6n4nk8i9', '2g3g3gd1-3d4d-ak4k-f5f5-dmdmdmdmdmdm', 'Jack Blue', '555-9999', '999.000.111-22', 'jack@example.com', 'PENDING', 'Credit Card', '2024-08-26'),
+    ('3l7n7o5o-l9j0-eo1k-3k3l-kl7n7o5ol9j0', '3h4h4he1-4e5e-bl5l-g6g6-eneeneeneene', 'Kate Red', '555-0000', '000.111.222-33', 'kate@example.com', 'APPROVED', 'Credit Card', '2024-08-27'),
+    ('4m8o8p6p-m0k1-fp2l-4l4m-lm8o8p6pm0k1', '1e77a1e3-35d2-4a62-b0b5-9bfb6e8ef481', 'Liam Cyan', '555-1111', '111.222.333-44', 'liam@example.com', 'PENDING', 'PayPal', '2024-08-28'),
+    ('5n9p9q7q-n1l2-gq3m-5m5n-mn9p9q7qn1l2', '2b6b9b91-ff9a-4e5c-a7a4-80d1f7b89e43', 'Mia Green', '555-2222', '222.333.444-55', 'mia@example.com', 'APPROVED', 'Bank Transfer', '2024-08-29'),
+    ('6o0q0r8r-o2m3-hr4n-6n6o-no0q0r8ro2m3', '3d4c7d9e-4fb6-476a-8f43-5dc17a4d8e1a', 'Noah Yellow', '555-3333', '333.444.555-66', 'noah@example.com', 'PENDING', 'Credit Card', '2024-08-30'),
+    ('7p1r1s9s-p3n4-is5o-7o7p-op1r1s9sp3n4', '4e8b8a41-c5f8-4b6b-a9f9-5a5a5a5a5a5a', 'Olivia Brown', '555-4444', '444.555.666-77', 'olivia@example.com', 'APPROVED', 'PayPal', '2024-09-01'),
+    ('8q2s2t0t-q4o5-jt6p-8p8q-pq2s2t0tq4o5', '5f9f9f6b-6c8c-4d9d-8e8e-6f6f6f6f6f6f', 'Paul Black', '555-5555', '555.666.777-88', 'paul@example.com', 'PENDING', 'Bank Transfer', '2024-09-02'),
+    ('9r3t3u1u-r5p6-ku7q-9q9r-qr3t3u1ur5p6', '6a7a7a8a-7d9d-4e9e-9f9f-7g7g7g7g7g7g', 'Quinn White', '555-6666', '666.777.888-99', 'quinn@example.com', 'APPROVED', 'Credit Card', '2024-09-03'),
+    ('0s4u4v2v-s6q7-lv8r-0r0s-rs4u4v2vs6q7', '7b8b8b9b-8e9e-5f9f-a0a0-8h8h8h8h8h8h', 'Ryan Gray', '555-7777', '777.888.999-00', 'ryan@example.com', 'PENDING', 'PayPal', '2024-09-04'),
+    ('1t5v5w3w-t7r8-mw9s-1s1t-st5v5w3wt7r8', '8c9c9ca9-9f0f-6g0g-b1b1-9i9i9i9i9i9i', 'Sara Pink', '555-8888', '888.999.000-11', 'sara@example.com', 'APPROVED', 'Bank Transfer', '2024-09-05'),
+    ('2u6w6x4x-u8s9-nx0t-2t2u-tu6w6x4xu8s9', '9dadadb9-0a1a-7h1h-c2c2-ajajajajajaj', 'Tom Blue', '555-9999', '999.000.111-22', 'tom@example.com', 'PENDING', 'Credit Card', '2024-09-06'),
+    ('3v7x7y5y-v9t0-oy1u-3u3v-uv7x7y5yv9t0', '0e1e1eb1-1b2b-8i2i-d3d3-bkbkbkbkbkbk', 'Uma Red', '555-0000', '000.111.222-33', 'uma@example.com', 'APPROVED', 'PayPal', '2024-09-07'),
+    ('4w8y8z6z-w0u1-pz2v-4v4w-vw8y8z6zw0u1', '1f2f2fc1-2c3c-9j3j-e4e4-clclclclclcl', 'Victor Cyan', '555-1111', '111.222.333-44', 'victor@example.com', 'PENDING', 'Bank Transfer', '2024-09-08'),
+    ('5x9z0a7a-x1v2-qz3w-5w5x-xw9z0a7ax1v2', '2g3g3gd1-3d4d-ak4k-f5f5-dmdmdmdmdmdm', 'Wendy Green', '555-2222', '222.333.444-55', 'wendy@example.com', 'APPROVED', 'Credit Card', '2024-09-09'),
+    ('6y0a1b8b-y2w3-rz4x-6x6y-yx0a1b8by2w3', '3h4h4he1-4e5e-bl5l-g6g6-eneeneeneene', 'Xander Yellow', '555-3333', '333.444.555-66', 'xander@example.com', 'PENDING', 'Bank Transfer', '2024-09-10'),
+    ('7z1b2c9c-z3x4-sz5y-7y7z-zy1b2c9cz3x4', '1e77a1e3-35d2-4a62-b0b5-9bfb6e8ef481', 'Yara Brown', '555-4444', '444.555.666-77', 'yara@example.com', 'APPROVED', 'Credit Card', '2024-09-11'),
+    ('8a2c3d0d-a4y5-tz6z-8z8a-az2c3d0da4y5', '2b6b9b91-ff9a-4e5c-a7a4-80d1f7b89e43', 'Zack Black', '555-5555', '555.666.777-88', 'zack@example.com', 'PENDING', 'PayPal', '2024-09-12');
